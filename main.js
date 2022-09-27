@@ -165,3 +165,4 @@ function changePreviusImage(imgContainer){
   imgContainer.style.backgroundImage = `url('../images/image-product-${imgIndex}.jpg')`
 }
 
+//comentario
