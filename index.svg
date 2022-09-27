@@ -11,7 +11,6 @@
     />
     <title>Frontend Mentor | E-commerce product page</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    
     <!--Feel free to remove these styles or customise in your own stylesheet-->
     <style>
       .attribution {
@@ -63,7 +62,7 @@
         <!-- final modal navbar -->
         <div class="header__cart-avatar">
           <div class="header__cart">
-            <div class="header__cart--notification">0</div>
+            <div class="header__cart--notification">3</div>
             <img src="./images/icon-cart.svg" alt="" />
           </div>
 
@@ -119,20 +118,20 @@
             Featuring a durable rubber outer sole, they'll withstand everything
             the weather can offer.
           </p>
-          <div class="details__prices">
+          <div class="detail__prices">
             <p class="details__now">
               $125.00 <span class="details__discount">50%</span>
             </p>
             <p class="details__before">$250.00</p>
           </div>
           <div class="details__product-quantity">
-            <div class="input">
+            <div class="Input">
               <img
                 class="input__minus"
                 src="./images/icon-minus.svg"
                 alt="minus"
               />
-              <input class="input__number" type="text" value="0"/>
+              <input class="input__number" type="number" value="0" />
               <img
                 class="input__plus"
                 src="./images/icon-plus.svg"
@@ -140,7 +139,7 @@
               />
             </div>
             <button class="details__button">
-              <img src="./images/icon-cart-white.svg" alt="" />Add to cart
+              <img src="./images/icon-cart.svg" alt="" />Add to cart
             </button>
           </div>
         </article>
@@ -150,7 +149,7 @@
         <p class="cart-modal__title">Cart</p>
         <div class="cart-modal__chekout-container">
           <div class="cart-modal__details-container">
-            <img class="cart-modal__image" src="./images/image-product-1-thumbnail.jpg" alt="" />
+            <img src="./images/image-product-1-thumbnail.jpg" alt="" />
             <div>
               <p class="cart-modal__product">Autum Limited Edition...</p>
               <p class="cart-modal__price">$125 x3 <span>$375.00</span></p>
@@ -161,26 +160,18 @@
               alt="delete"
             />
           </div>
-          <button class="cart-modal__chekount">Checkout</button>
+          <button class="cart-modal__chekout">Checkout</button>
         </div>
       </div>
       <!-- fin cart modal -->
-
-    </main>
-    <footer class="attibution">
-      challege by <a href="" target="_blank">Web Development</a> 
-      Coded by<a href="https://bit.ly/PortafolioVictor" target="_blank">Victor hugo</a>
-    </footer>
       <!-- inicio gallery modal -->
       <div class="modal-gallery__background">
         <article class="modal-gallery">
-          <div class="modal-gallery__close-container">
-            <img
-              class="modal-gallery__close"
-              src="./images/icon-close.svg"
-              alt="icon close"
-            />
-          </div>
+          <img
+            class="modal-gallery__close"
+            src="./images/icon-close.svg"
+            alt="icon close"
+          />
           <div class="modal-gallery__image-container">
             <img
               class="modal-gallery__previus"
@@ -222,6 +213,10 @@
         </article>
       </div>
       <!-- fin gallery modal -->
-    <script src="./main.js"></script>
+    </main>
+    <footer class="attibution">
+      challege by <a href="" target="_blank">Web Development</a> Coded by
+      <a href="https://bit.ly/PortafolioVictor" target="_blank">Victor hugo</a>
+    </footer>
   </body>
 </html>
